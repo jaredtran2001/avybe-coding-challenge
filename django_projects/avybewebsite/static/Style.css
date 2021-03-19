@@ -1,0 +1,49 @@
+body{
+  background:linear-gradient(to right, #00cda3, #8167e2);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+.box .container1 {
+  flex: 25%;
+  padding: .1em;
+}
+.box .container2 {
+  flex: 25%;
+  padding: .1em;
+  text-align: center;
+}
+
+#inputFile {
+  display: block;
+}
+
+
+.container1 {
+  width: 250px;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+}
+
+.container1 img{
+  width: 100%;
+  display: none;
+  margin-top: 10px;
+}
+
+#submit {
+  background: white;
+  border-radius: 5px;
+  color: #5c5b5b;
+}
+
